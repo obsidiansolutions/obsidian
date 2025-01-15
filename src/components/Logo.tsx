@@ -8,7 +8,7 @@ interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({ className = '', size = 40 }) => {
   return (
     <img
-      src="/logo.svg"
+      src="/logo.png"
       alt="Obsidian AI Logo"
       className={`${className}`}
       style={{ width: size, height: size }}
